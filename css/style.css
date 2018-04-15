@@ -1,0 +1,101 @@
+* {
+	font-weight: 300 !important;
+}
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #eeeeee;
+}
+a {
+	color: #f9f9f9 !important;
+	-webkit-transition: all .3 ease;
+	-moz-transition: all .3 ease;
+	-o-transition: all .3 ease;
+	-ms-transition: all .3 ease;
+	transition: all .3 ease;
+}
+a:hover {
+	
+}
+/* header */
+header {
+	background-color: #3b383b;
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+header > .container {
+
+}
+.header__logo {
+	color: #f9f9f9;
+	line-height: 56px !important;
+	font-size: 42px;
+	display: block;
+    padding: 4px;
+}
+.header__logo > span:nth-child(1) {
+	color: #d9534f;
+}
+.header__logo > span:nth-child(2) {
+	color: #5ac1de;
+}
+ul.header__menu > li > a {
+	line-height: 56px !important;
+}
+/* content */
+.content {
+	min-height: 100vh;
+}
+.content > .container-fluid {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.content > .container-fluid > .row > [class^='col-'] {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+/* first section */
+section {
+	height: 100vh;
+	width: 100%;
+	/*padding: 0;
+	margin: 0;*/
+	
+}
+section.first-section {
+	background-color: #6c757d;
+	background-image: url(../img/bg__city.jpg);
+}
+.sidebar {
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background-color: #6c757d;
+}
+/* footer */
+footer {
+	background-color: #3b383b;
+	color: #f9f9f9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
